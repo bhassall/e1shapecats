@@ -171,10 +171,8 @@ var participant_info_SONA = {
     button_label_next: "Start",
     allow_backward: false
   }],
-  conditional_function: function() {
-    if (typeof SONAID === 'undefined') { return false; } else { return true; }
-  }
-};
+  
+  conditional_function: function() { return true; }
 
 
 var demographics = {
@@ -261,63 +259,3 @@ var DEBRIEF_SONA = {
   timeline: [debrief_statement, study_complete_notification]
 };
 
-
-var consent_form = {
-  type: jsPsychSurveyHtmlForm,
-  preamble: `
-    <div style="padding-left: 50px; padding-right: 50px; text-align: left;">
-      <h1>Participant Consent Form</h1>
-      <h2 style="color:#e1310e">Research Study: Investigating learning in autistic and non-autistic adults</h2>
-      A/Prof Micah Goldwater (Responsible Researcher)<br>
-      School of Psychology, Faculty of Science<br>
-      Phone: +61 2 9351 5453 | Email: micah.goldwater@sydney.edu.au<br>
-      Brianna Hassall (Master of Philosophy student) | Email: bhas2668@uni.sydney.edu.au
-      <hr>
-      <p>I agree to take part in this research study. In giving my consent, I confirm that:</p>
-    </div>
-  `,
-  html: `
-    <div style="padding-left: 50px; padding-right: 50px; text-align: left;">
-      <div class="consent-item"><input type="checkbox" name="c1" required>
-        <label>The details of my involvement have been explained to me, and I have been provided with a written Participant Information Statement to keep.</label></div><br>
-      <div class="consent-item"><input type="checkbox" name="c2" required>
-        <label>I understand the purpose of the study is to investigate differences in learning strategies for autistic and non-autistic individuals.</label></div><br>
-      <div class="consent-item"><input type="checkbox" name="c3" required>
-        <label>I acknowledge that the risks and benefits of participating in this study have been explained to me to my satisfaction.</label></div><br>
-      <div class="consent-item"><input type="checkbox" name="c4" required>
-        <label>I understand that in this study I will be required to complete two cognitive tasks and a questionnaire.</label></div><br>
-      <div class="consent-item"><input type="checkbox" name="c5" required>
-        <label>I understand that if I provide consent, my de-identified data may be used in future related research and may be shared with other researchers or made available in research data repositories. My identity will not be disclosed.</label></div><br>
-      <div class="consent-item"><input type="checkbox" name="c6" required>
-        <label>I understand that being in this study is completely voluntary.</label></div><br>
-      <div class="consent-item"><input type="checkbox" name="c7" required>
-        <label>I am assured that my decision to participate will not have any impact on my relationship with the research team or the University of Sydney.</label></div><br>
-      <div class="consent-item"><input type="checkbox" name="c8" required>
-        <label>I understand that I am free to withdraw from this study at any time and that I can choose to withdraw any information I have already provided (unless the data has already been de-identified or published).</label></div><br>
-      <div class="consent-item"><input type="checkbox" name="c9" required>
-        <label>I have been informed that the confidentiality of the information I provide will be protected and will only be used for purposes that I have agreed to. I understand that information identifying me will only be told to others with my permission, except as required by law.</label></div><br>
-      <div class="consent-item"><input type="checkbox" name="c10" required>
-        <label>I understand that the results of this study may be published, and that publications will not contain my name or any identifiable information about me.</label></div><br>
-      <div class="consent-item"><input type="checkbox" name="c11" required>
-        <label>I consent to my data being used in future research.</label></div><br>
-      <div class="consent-item"><input type="checkbox" name="c12" required>
-        <label>I understand that after I submit this consent form it will be retained by the researcher, and that I may request a copy at any time.</label></div><br>
-    </div>
-  `,
-  button_label: "I consent to participate",
-  on_load: function() {
-    // Disable button until all checkboxes are ticked
-    const btn = document.querySelector('#jspsych-survey-html-form-next');
-    btn.disabled = true;
-    document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
-      cb.addEventListener('change', function() {
-        const all = document.querySelectorAll('input[type="checkbox"]');
-        const allChecked = Array.from(all).every(c => c.checked);
-        btn.disabled = !allChecked;
-      });
-    });
-  },
-  on_finish: function(data) {
-    data.trial_type = "Consent";
-  }
-};
