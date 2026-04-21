@@ -173,7 +173,8 @@ var participant_info_SONA = {
   }],
   
   conditional_function: function() { return true; }
-
+  }]
+};
 
 var demographics = {
   timeline: [{
