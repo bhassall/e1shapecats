@@ -73,16 +73,6 @@ var participant_info_paid = {
 };
 
 
-var participant_info_SONA = {
-  timeline: [{
-    type: jsPsychInstructions,
-    pages: function() { return ['']; },
-    show_clickable_nav: true
-  }],
-  conditional_function: function() { return false; }
-};
-
-
 var demographics = {
   timeline: [{
     type: jsPsychSurveyHtmlForm,
