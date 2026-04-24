@@ -176,7 +176,7 @@ var consent_form = {
   `,
   html: `
     <div style="padding-left: 50px; padding-right: 50px; text-align: left;">
-      <ul>
+      <ul style="margin-left: 50px;">
         <li>The details of my involvement have been explained to me, and I have been provided with a written Participant Information Statement to keep.</li><br>
         <li>I understand the purpose of the study is to investigate differences in learning strategies for autistic and non-autistic individuals.</li><br>
         <li>I acknowledge that the risks and benefits of participating in this study have been explained to me to my satisfaction.</li><br>
