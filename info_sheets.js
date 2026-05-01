@@ -89,7 +89,6 @@ var demographics = {
       '<p><b>Do you have a formal diagnosis of autism spectrum condition (ASC)?:</b></p>' +
       '<div><input type="radio" id="asc_yes" name="autism" value="yes"><label for="asc_yes">Yes</label></div>' +
       '<div><input type="radio" id="asc_no" name="autism" value="no"><label for="asc_no">No</label></div>' +
-      '<div><input type="radio" id="asc_unsure" name="autism" value="unsure"><label for="asc_unsure">Unsure</label></div>' +
       '<p><b>What is your highest level of education completed?:</b></p>' +
       '<div><input type="radio" id="edu0" name="education" value="some_high_school"><label for="edu0">Some high school (did not complete)</label></div>' +
       '<div><input type="radio" id="edu1" name="education" value="high_school"><label for="edu1">High school or equivalent</label></div>' +
