@@ -91,6 +91,7 @@ var demographics = {
       '<div><input type="radio" id="asc_no" name="autism" value="no"><label for="asc_no">No</label></div>' +
       '<div><input type="radio" id="asc_unsure" name="autism" value="unsure"><label for="asc_unsure">Unsure</label></div>' +
       '<p><b>What is your highest level of education completed?:</b></p>' +
+      '<div><input type="radio" id="edu0" name="education" value="some_high_school"><label for="edu0">Some high school (did not complete)</label></div>' +
       '<div><input type="radio" id="edu1" name="education" value="high_school"><label for="edu1">High school or equivalent</label></div>' +
       '<div><input type="radio" id="edu2" name="education" value="some_university"><label for="edu2">Some university (no degree)</label></div>' +
       '<div><input type="radio" id="edu3" name="education" value="bachelors"><label for="edu3">Bachelor\'s degree</label></div>' +
