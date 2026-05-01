@@ -86,21 +86,31 @@ var demographics = {
       '<p><b>Do you speak English fluently?:</b></p>' +
       '<div><input type="radio" id="yes" name="english" value="yes"><label for="yes">Yes</label></div>' +
       '<div><input type="radio" id="no" name="english" value="no"><label for="no">No</label></div>' +
+      '<p><b>Do you have a formal diagnosis of autism spectrum condition (ASC)?:</b></p>' +
+      '<div><input type="radio" id="asc_yes" name="autism" value="yes"><label for="asc_yes">Yes</label></div>' +
+      '<div><input type="radio" id="asc_no" name="autism" value="no"><label for="asc_no">No</label></div>' +
+      '<div><input type="radio" id="asc_unsure" name="autism" value="unsure"><label for="asc_unsure">Unsure</label></div>' +
+      '<p><b>What is your highest level of education completed?:</b></p>' +
+      '<div><input type="radio" id="edu1" name="education" value="high_school"><label for="edu1">High school or equivalent</label></div>' +
+      '<div><input type="radio" id="edu2" name="education" value="some_university"><label for="edu2">Some university (no degree)</label></div>' +
+      '<div><input type="radio" id="edu3" name="education" value="bachelors"><label for="edu3">Bachelor\'s degree</label></div>' +
+      '<div><input type="radio" id="edu4" name="education" value="postgraduate"><label for="edu4">Postgraduate degree (Masters, PhD, etc.)</label></div>' +
+      '<div><input type="radio" id="edu5" name="education" value="other"><label for="edu5">Other</label></div>' +
       '</div>',
     on_finish: function(data) {
-      jsPsych.data.addProperties({ age: data.response.age, sex: data.response.sex, english_fluent: data.response.english });
+      jsPsych.data.addProperties({ age: data.response.age, sex: data.response.sex, english_fluent: data.response.english, autism_diagnosis: data.response.autism, education: data.response.education });
     },
     on_load: function() {
-      document.querySelector('#jspsych-survey-html-form-next').disabled = true;
-      $('input[type="radio"]').on("click", function() {
-        if ($("input[name=age]").val() == '' || $("input[type=radio][name=sex]:checked").val() === undefined || $("input[type=radio][name=english]:checked").val() === undefined) { return; }
-        else { document.querySelector('#jspsych-survey-html-form-next').disabled = false; }
+  document.querySelector('#jspsych-survey-html-form-next').disabled = true;
+    $('input[type="radio"]').on("click", function() {
+    if ($("input[name=age]").val() == '' || $("input[type=radio][name=sex]:checked").val() === undefined || $("input[type=radio][name=english]:checked").val() === undefined || $("input[type=radio][name=autism]:checked").val() === undefined || $("input[type=radio][name=education]:checked").val() === undefined) { return; }
+    else { document.querySelector('#jspsych-survey-html-form-next').disabled = false; }
       });
       $('input[type="number"]').on("change", function() {
-        if ($("input[name=age]").val() == '' || $("input[type=radio][name=sex]:checked").val() === undefined || $("input[type=radio][name=english]:checked").val() === undefined) { return; }
-        else { document.querySelector('#jspsych-survey-html-form-next').disabled = false; }
-      });
-    }
+    if ($("input[name=age]").val() == '' || $("input[type=radio][name=sex]:checked").val() === undefined || $("input[type=radio][name=english]:checked").val() === undefined || $("input[type=radio][name=autism]:checked").val() === undefined || $("input[type=radio][name=education]:checked").val() === undefined) { return; }
+    else { document.querySelector('#jspsych-survey-html-form-next').disabled = false; }
+  });
+}
   }],
   conditional_function: function() { return true; }
 };
