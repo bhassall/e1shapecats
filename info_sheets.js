@@ -132,7 +132,17 @@ var debrief_statement = {
     <hr>
     <div style="text-align: left;">
       Thank you for completing this study.<br><br>
-      [DEBRIEF TEXT TO BE ADDED]<br><br>
+      Thank you for completing this study. <br><br>
+
+This study examined whether autistic and non-autistic adults differ in how they learn new categories. Autistic adults were self-classified at the start of the study. Specifically, we were interested in whether people tend to memorise individual examples they have seen before, or whether they are able to discover an underlying rule that applies across all members of a category.<br><br>
+
+We also investigated whether the way information is presented affects this learning. In one task, shapes were shown one at a time with feedback, while in the other, all shapes were presented at once for study. We were interested in whether these different presentation formats lead to different learning strategies.<br><br>
+
+The letter matching task (where you pressed space for matching letters) was included as a measure of working memory, which may influence how people learn and generalise information.<br><br>
+
+The questionnaire you completed measures autistic traits in the general population. We are investigating whether there is any association between these traits and learning strategies.<br><br>
+
+If you would like to know the results of this study when it is complete, please access this link - https://docs.google.com/document/d/15zWOQZmSnMycb8tLobAP80tOquS45UEglI0OmIiPcYw/edit?usp=sharing - which will be updated with a summary of the results once the data collection has finished and the data has been analysed.<br><br><br><br>
       If you have any questions, now or at a later time, please feel free to contact:<br><br>
       <li>A/Prof Micah Goldwater: micah.goldwater@sydney.edu.au</li>
       <li>Brianna Hassall: bhas2668@uni.sydney.edu.au</li>
