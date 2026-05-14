@@ -33,7 +33,7 @@ var participant_info_paid = {
       <h4 style="color:#e1310e">4. What will the study involve for me?</h4>
       If you decide to take part in this study, you will be given a task where you are to determine how to put images into categories, and another task that tests your memory with a series of letters. Lastly, you will be asked to complete a self-report questionnaire. This includes multiple-choice questions about everyday behaviours, preferences and ways of thinking that are related to autistic traits in adults.<br><br>
       Attentional checks will be included throughout the tasks to assess data quality. These checks are used for research purposes only and do not determine payment. To check for meaningful task engagement, a minimum performance threshold will be needed on the letter memory task. Payment is contingent on completing the full study and meeting this task threshold.<br><br>
-      The whole set of tasks should take no more than 45 minutes. There will be opportunities to take breaks.
+      The whole set of tasks should take no more than 30 minutes. There will be opportunities to take breaks.
       <h4 style="color:#e1310e">5. Can I withdraw once I have started?</h4>
       Being in this study is completely voluntary and you do not have to take part.<br><br>
       Your decision will not affect your current or future relationship with the researchers or anyone else at The University of Sydney.<br><br>
@@ -42,7 +42,7 @@ var participant_info_paid = {
       <h4 style="color:#e1310e">6. Are there any risks or costs?</h4>
       Aside from giving up your time, we do not expect that there will be any risks or costs associated with taking part in this study.
       <h4 style="color:#e1310e">7. Are there any benefits?</h4>
-      For 45 minutes of participation, you will receive £4.50 (a rate of £6 per hour).
+      For 30 minutes of participation, you will receive 0.5 SONA credits.
       <h4 style="color:#e1310e">8. What will happen to information that is collected?</h4>
       By providing your consent, you are agreeing to us collecting information from or about you for the purposes of this study. All results from the cognitive task and survey will be anonymous. These results will be analysed and presented to other researchers in scientific communications, but no individuals will be able to be identified in the analyses.<br><br>
       In addition, anonymous data will be stored on the Open Science Framework, an online repository for data that allows researchers to conduct novel analyses on existing data sets. No identifying information will be stored there.<br><br>
@@ -132,7 +132,6 @@ var debrief_statement = {
     <hr>
     <div style="text-align: left;">
       Thank you for completing this study.<br><br>
-      Thank you for completing this study. <br><br>
 
 This study examined whether autistic and non-autistic adults differ in how they learn new categories. Autistic adults were self-classified at the start of the study. Specifically, we were interested in whether people tend to memorise individual examples they have seen before, or whether they are able to discover an underlying rule that applies across all members of a category.<br><br>
 
