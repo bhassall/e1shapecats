@@ -6,7 +6,7 @@ var participant_info_paid = {
   <div style="padding-left: 50px; padding-right: 50px;">
     <div style="text-align: left;">
       <h1>Participant Information Statement</h1>
-      <h2 style="color:#e1310e">Research Study: Investigating learning in autistic and non-autistic adults</h2>
+      <h2 style="color:#e1310e">Research Study:  Investigating learning generalisation and confidence</h2>
       A/Prof Micah Goldwater (Responsible Researcher)<br>
       School of Psychology, Faculty of Science<br>
       Phone: +61 2 9351 5453 | Email: micah.goldwater@sydney.edu.au<br>
@@ -123,7 +123,7 @@ var debrief_statement = {
   <div style="padding-left: 50px; padding-right: 50px;">
     <div style="text-align: left;">
       <h1>Debrief Statement</h1>
-      <h2 style="color:#e1310e">Research Study: Investigating learning in autistic and non-autistic adults</h2>
+      <h2 style="color:#e1310e">Research Study:  Investigating learning generalisation and confidence</h2>
       A/Prof Micah Goldwater (Responsible Researcher)<br>
       School of Psychology, Faculty of Science<br>
       Phone: +61 2 9351 5453 | Email: micah.goldwater@sydney.edu.au<br>
@@ -184,7 +184,7 @@ var consent_form = {
   preamble: `
     <div style="padding-left: 50px; padding-right: 50px; text-align: left;">
       <h1>Participant Consent Form</h1>
-      <h2 style="color:#e1310e">Research Study: Investigating learning in autistic and non-autistic adults</h2>
+      <h2 style="color:#e1310e">Research Study:  Investigating learning generalisation and confidence</h2>
       A/Prof Micah Goldwater (Responsible Researcher)<br>
       School of Psychology, Faculty of Science<br>
       Phone: +61 2 9351 5453 | Email: micah.goldwater@sydney.edu.au<br>
