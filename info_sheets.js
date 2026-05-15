@@ -32,12 +32,12 @@ var participant_info_paid = {
       To ensure the results of the study are reliable, please do not discuss the study with other people who may also take part, as this could influence their responses.
       <h4 style="color:#e1310e">4. What will the study involve for me?</h4>
       If you decide to take part in this study, you will be given a task where you are to determine how to put images into categories, and another task that tests your memory with a series of letters. Lastly, you will be asked to complete a self-report questionnaire. This includes multiple-choice questions about everyday behaviours, preferences and ways of thinking that are related to autistic traits in adults.<br><br>
-      Attentional checks will be included throughout the tasks to assess data quality. These checks are used for research purposes only and do not determine payment. To check for meaningful task engagement, a minimum performance threshold will be needed on the letter memory task. Payment is contingent on completing the full study and meeting this task threshold.<br><br>
+      Attentional checks will be included throughout the tasks to assess data quality. These checks are used for research purposes only and do not determine credit. To check for meaningful task engagement, a minimum performance threshold will be needed on the letter memory task. Credit is contingent on completing the full study and meeting this task threshold.<br><br>
       The whole set of tasks should take no more than 30 minutes. There will be opportunities to take breaks.
       <h4 style="color:#e1310e">5. Can I withdraw once I have started?</h4>
       Being in this study is completely voluntary and you do not have to take part.<br><br>
       Your decision will not affect your current or future relationship with the researchers or anyone else at The University of Sydney.<br><br>
-      If you decide to take part in the study and then change your mind, you can withdraw by closing the browser before you complete the study. The full study must be completed to receive payment.<br><br>
+      If you decide to take part in the study and then change your mind, you can withdraw by closing the browser before you complete the study. The full study must be completed to receive credit.<br><br>
       If you choose to withdraw, we will stop collecting information from you. If you do not want the information already collected to be in the study results, please tell us at the time you withdraw.
       <h4 style="color:#e1310e">6. Are there any risks or costs?</h4>
       Aside from giving up your time, we do not expect that there will be any risks or costs associated with taking part in this study.
