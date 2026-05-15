@@ -56,7 +56,7 @@ var participant_info_paid = {
       <li>A/Prof Micah Goldwater, School of Psychology, contactable at micah.goldwater@sydney.edu.au</li>
       <li>Brianna Hassall, School of Psychology, contactable at bhas2668@uni.sydney.edu.au</li>
       <h4 style="color:#e1310e">11. What if I have a complaint or any concerns?</h4>
-      The ethical aspects of this study have been approved by the Human Research Ethics Committee (HREC) of The University of Sydney [2026/HE000173] according to the National Statement on Ethical Conduct in Human Research (2007). If you are concerned about the way this study is being conducted or you wish to make a complaint to someone independent from the study, please contact the University:<br><br>
+      The ethical aspects of this study have been approved by the Human Research Ethics Committee (HREC) of The University of Sydney [2022/HE000115] according to the National Statement on Ethical Conduct in Human Research (2007). If you are concerned about the way this study is being conducted or you wish to make a complaint to someone independent from the study, please contact the University:<br><br>
       Human Ethics Manager<br>
       human.ethics@sydney.edu.au<br>
       +61 2 8627 8176<br>
@@ -146,7 +146,7 @@ If you would like to know the results of this study when it is complete, please 
       <li>A/Prof Micah Goldwater: micah.goldwater@sydney.edu.au</li>
       <li>Brianna Hassall: bhas2668@uni.sydney.edu.au</li>
       <br>
-      The ethical aspects of this study have been approved by the Human Research Ethics Committee (HREC) of The University of Sydney [2026/HE000173] according to the National Statement on Ethical Conduct in Human Research (2007).<br><br>
+      The ethical aspects of this study have been approved by the Human Research Ethics Committee (HREC) of The University of Sydney [2022/HE000115] according to the National Statement on Ethical Conduct in Human Research (2007).<br><br>
       If you are concerned about the way this study is being conducted or you wish to make a complaint to someone independent from the study, please contact the University:<br><br>
       Human Ethics Manager<br>
       human.ethics@sydney.edu.au<br>
